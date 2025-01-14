@@ -1128,7 +1128,7 @@ GameObject:
   - component: {fileID: 2023953610}
   - component: {fileID: 2023953613}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: 'Ground '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1234,7 +1234,7 @@ GameObject:
   - component: {fileID: 2086182511}
   - component: {fileID: 2086182512}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: 'Player Sir Dog '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
