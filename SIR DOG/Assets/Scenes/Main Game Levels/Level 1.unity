@@ -4826,7 +4826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 250
-  speed: 10
+  speed: 8
   maxGroundDistance: 1.5
   allowDoubleJump: 0
 --- !u!54 &2086182512
