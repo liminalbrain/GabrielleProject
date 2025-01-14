@@ -356,10 +356,10 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 94
+  m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &137045975
-BoxCollider:
+--- !u!136 &137045975
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -368,8 +368,9 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1}
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &138346935
 GameObject:
@@ -537,7 +538,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182319193}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0212, y: 1.3926054, z: 0.276}
+  m_LocalPosition: {x: -0.0226, y: 1.433, z: 0.276}
   m_LocalScale: {x: 0.0018674738, y: 0.082965724, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -670,7 +671,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 94
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!23 &223919211
 MeshRenderer:
@@ -930,6 +931,7 @@ GameObject:
   - component: {fileID: 341022721}
   - component: {fileID: 341022720}
   - component: {fileID: 341022719}
+  - component: {fileID: 341022722}
   m_Layer: 0
   m_Name: Checkpoint placeholder (2)
   m_TagString: Untagged
@@ -1016,6 +1018,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341022717}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &341022722
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341022717}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &394122909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,7 +1194,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 94
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!23 &428369431
 MeshRenderer:
@@ -1240,6 +1258,7 @@ GameObject:
   - component: {fileID: 502289900}
   - component: {fileID: 502289899}
   - component: {fileID: 502289898}
+  - component: {fileID: 502289901}
   m_Layer: 0
   m_Name: Dog Treats (2)
   m_TagString: Untagged
@@ -1255,7 +1274,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502289896}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.34, y: 54.279198, z: -78.67902}
+  m_LocalPosition: {x: 46.535233, y: 54.968246, z: -78.67902}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1325,6 +1344,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502289896}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &502289901
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502289896}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &532920942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1601,7 @@ GameObject:
   - component: {fileID: 641253462}
   - component: {fileID: 641253461}
   - component: {fileID: 641253460}
+  - component: {fileID: 641253463}
   m_Layer: 0
   m_Name: Dog Treats (1)
   m_TagString: Untagged
@@ -1651,6 +1687,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641253458}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &641253463
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641253458}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &650222844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,7 +1730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650222844}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.030199999, y: 1.1435363, z: 0.276}
+  m_LocalPosition: {x: -0.0316, y: 1.1839309, z: 0.276}
   m_LocalScale: {x: 0.004689671, y: 0.082965724, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2200,7 +2252,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733641761}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0253, y: 1.2840999, z: 0.276}
+  m_LocalPosition: {x: -0.026700001, y: 1.3244945, z: 0.276}
   m_LocalScale: {x: 0.004689671, y: 0.082965724, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2283,6 +2335,7 @@ GameObject:
   - component: {fileID: 796657277}
   - component: {fileID: 796657276}
   - component: {fileID: 796657275}
+  - component: {fileID: 796657278}
   m_Layer: 0
   m_Name: Checkpoint placeholder (4)
   m_TagString: Untagged
@@ -2369,6 +2422,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796657273}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &796657278
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796657273}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &863283746
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,7 +2794,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 94
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!23 &897193335
 MeshRenderer:
@@ -3180,6 +3249,7 @@ GameObject:
   - component: {fileID: 1262679320}
   - component: {fileID: 1262679319}
   - component: {fileID: 1262679318}
+  - component: {fileID: 1262679321}
   m_Layer: 0
   m_Name: Dog Treats (3)
   m_TagString: Untagged
@@ -3265,6 +3335,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262679316}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1262679321
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262679316}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1397893262
 GameObject:
   m_ObjectHideFlags: 0
@@ -3277,6 +3363,7 @@ GameObject:
   - component: {fileID: 1397893265}
   - component: {fileID: 1397893264}
   - component: {fileID: 1397893263}
+  - component: {fileID: 1397893267}
   m_Layer: 0
   m_Name: Checkpoint placeholder (1)
   m_TagString: Untagged
@@ -3363,6 +3450,22 @@ Transform:
   m_Father: {fileID: 28374267}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1397893267
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397893262}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1430569062
 GameObject:
   m_ObjectHideFlags: 0
@@ -4288,6 +4391,7 @@ GameObject:
   - component: {fileID: 1889922151}
   - component: {fileID: 1889922150}
   - component: {fileID: 1889922149}
+  - component: {fileID: 1889922152}
   m_Layer: 0
   m_Name: Checkpoint placeholder (3)
   m_TagString: Untagged
@@ -4303,7 +4407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889922147}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 21.17, y: 46.9, z: -110.14171}
+  m_LocalPosition: {x: 24.365232, y: 47.58905, z: -110.14171}
   m_LocalScale: {x: 1.6819547, y: 1.2825576, z: 1.6819547}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4374,6 +4478,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889922147}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1889922152
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889922147}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1899609745
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,7 +4556,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 94
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!23 &1899609749
 MeshRenderer:
@@ -4843,7 +4963,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 2
 --- !u!1 &2098596950
 GameObject:
@@ -4857,6 +4977,7 @@ GameObject:
   - component: {fileID: 2098596954}
   - component: {fileID: 2098596953}
   - component: {fileID: 2098596952}
+  - component: {fileID: 2098596955}
   m_Layer: 0
   m_Name: Checkpoint placeholder (5)
   m_TagString: Untagged
@@ -4943,6 +5064,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098596950}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &2098596955
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098596950}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &2124710054
 GameObject:
   m_ObjectHideFlags: 0
