@@ -5047,7 +5047,7 @@ GameObject:
   - component: {fileID: 2086182512}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5179,7 +5179,7 @@ GameObject:
   - component: {fileID: 2098596955}
   m_Layer: 0
   m_Name: Checkpoint placeholder (5)
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
