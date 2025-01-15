@@ -10,7 +10,7 @@ public class EnemyPatrol : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        target Point 0;
+        targetPoint = 0;
     }
 
     //Update is called once per frame
